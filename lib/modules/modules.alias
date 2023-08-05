@@ -1,0 +1,21 @@
+# Aliases extracted from modules themselves.
+alias sdio:c*v024CdC821* 8821cs
+alias sdio:c*v024CdB821* 8821cs
+alias platform:rgxrk3368 pvrsrvkm
+alias of:N*T*Carm,rk3368-gpu* pvrsrvkm
+alias of:N*T*Carm,rogue-G6110* pvrsrvkm
+alias of:N*T*Carm,rogue-G6110* pvrsrvkm
+alias sdio:c*v024CdB822* 8822bs
+alias of:N*T*Csprd,unisoc-wifiC* sprdwl_ng
+alias of:N*T*Csprd,unisoc-wifi sprdwl_ng
+alias sdio:c*v024CdB703* 8723cs
+alias sdio:c00v*d* bcmdhd
+alias sdio:c*v02D0dA8E7* bcmdhd
+alias sdio:c*v02D0d4324* bcmdhd
+alias sdio:c*v02D0d4334* bcmdhd
+alias sdio:c*v02D0d4330* bcmdhd
+alias sdio:c*v02D0d4319* bcmdhd
+alias sdio:c*v02D0d4329* bcmdhd
+alias sdio:c*v02D0d0493* bcmdhd
+alias sdio:c*v02D0d0492* bcmdhd
+alias sdio:c*v02D0d0000* bcmdhd
