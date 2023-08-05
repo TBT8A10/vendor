@@ -1,8 +1,11 @@
 ### Hardware & Blobs info
+* **LCD (Display)**: ShenZhen Strong Photoelectric SQ080B331M-I7401
+    * Resolution: 800x1280
+    * Seems like it has some relation with the TV080WXM-NL0 LCD, so both schematics may be similar
 * **WiFi & Bluetooth Chip**: Unisoc uwe5622
     * Firmware: /vendor/etc/firmware/wcnmodem.bin `W21.10.3`
 * **GPU**: PowerVR Rogue G6110 (BVNC 5.9.1.46)
-    * All blobs come from the Rockchip vendor. Their version can be found after the name (e.g. `UM Q 5.56`)
+    * All blobs come from the Rockchip vendor
     * bin
         * pvrsrvctl `UM P 5.38`
         * pvrtld `UM Q 5.58`
@@ -22,10 +25,10 @@
             * pvrsrvkm.ko `UM Q 5.58`
         * libGLESv2_POWERVR_ROGUE.so `Available on rockchip vendor but not on this vendor`
         * libIMGegl.so `UM Q 5.58`
-        * libLLVMIMG.so | 11/11/2016
+        * libLLVMIMG.so `11/11/2016`
         * libPVROCL.so `UM Q 5.56`
         * libPVRScopeServices.so `UM Q 5.58`
-        * libclangIMG.so | 11/11/2016
+        * libclangIMG.so `11/11/2016`
         * libcreatesurface.so `UM N 5.10`
         * libglslcompiler.so `UM Q 5.56`
         * liboclcompiler.so `UM N 5.10`
