@@ -32,11 +32,11 @@
   </project>
   <project groups="pdk" name="platform/art" path="art" revision="cd28a6b90367690e274e271aeabf159e8f9646e6" upstream="refs/tags/android-10.0-mid-rkr11"/>
   <project groups="pdk" name="platform/bionic" path="bionic" revision="cc1c98e56a9ee265e55d6b7f53114bd924d09921" upstream="refs/tags/android-10.0-mid-rkr11"/>
-  <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery" revision="60780b5642f82a9cdb34ed61071912162adec45b" upstream="refs/tags/android-10.0-mid-rkr11"/>
+  <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery" revision="5fcda3a66cbbe194d593968e28f1e87864369d71" upstream="refs/tags/android-10.0-mid-rkr11"/>
   <project name="platform/bootable/recovery/mtd_utils" path="bootable/recovery/mtdutils" revision="9fc87c1ee151af1cc4bef5d6daa85ff571621ba6" upstream="refs/tags/android-10.0-mid-rkr11"/>
   <project name="platform/bootable/recovery/rk_update" path="bootable/recovery/rkupdate" revision="5351453a8e96bdad4ee5a1cdc9b4ae5995e0636d" upstream="refs/tags/android-10.0-mid-rkr11"/>
   <project name="platform/bootable/recovery/rk_utility" path="bootable/recovery/rkutility" revision="43586ca6b1919648a0fb43c9e96bc5387caad238" upstream="refs/tags/android-10.0-mid-rkr11"/>
-  <project groups="pdk" name="platform/build" path="build/make" revision="c6d3946ba0431c0d8b11d1eee3c5f62ebe9db55e" upstream="refs/tags/android-10.0-mid-rkr11">
+  <project groups="pdk" name="platform/build" path="build/make" revision="dd24b997f0a59be70f6a53080ae32a8f02209989" upstream="refs/tags/android-10.0-mid-rkr11">
     <copyfile dest="Makefile" src="core/root.mk"/>
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
     <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default"/>
@@ -385,7 +385,7 @@
   <project groups="pdk" name="platform/external/tcpdump" path="external/tcpdump" revision="f50b8b00f4d40eaaeb7e0e3a398d441d27e63d54" upstream="refs/tags/android-10.0.0_r45"/>
   <project groups="pdk" name="platform/external/tensorflow" path="external/tensorflow" revision="8259d76637db829bb3c9893798f96426946550d2" upstream="refs/tags/android-10.0.0_r45"/>
   <project groups="pdk" name="platform/external/testng" path="external/testng" revision="74aac3e648e789b5f462bd42debc34a16507dbad" upstream="refs/tags/android-10.0.0_r45"/>
-  <project groups="pdk" name="platform/external/tinyalsa" path="external/tinyalsa" revision="15c86f9d3f959dd64b80e7222aafb12ed30bbce5" upstream="refs/tags/android-10.0-mid-rkr11"/>
+  <project groups="pdk" name="platform/external/tinyalsa" path="external/tinyalsa" revision="4db5472ce36361bb8203c82e14e0873f2d6814dd" upstream="refs/tags/android-10.0-mid-rkr11"/>
   <project groups="pdk" name="platform/external/tinycompress" path="external/tinycompress" revision="4c77b6dd5f07c87b32a89b67e013fc4825d93685" upstream="refs/tags/android-10.0.0_r45"/>
   <project groups="pdk" name="platform/external/tinyxml" path="external/tinyxml" revision="47a414e46f824c3d3d91c163db8c0e7fcb3dc8c6" upstream="refs/tags/android-10.0.0_r45"/>
   <project groups="pdk" name="platform/external/tinyxml2" path="external/tinyxml2" revision="14b323f3dee3d562b31bc6d0044e7dedbd2201b8" upstream="refs/tags/android-10.0.0_r45"/>
@@ -494,7 +494,7 @@
   <project name="platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth" revision="714db0c91e7814318cda4e6de7471b5a64ad0e89" upstream="refs/tags/android-10.0-mid-rkr11"/>
   <project groups="pdk-fs" name="platform/packages/apps/Browser2" path="packages/apps/Browser2" revision="37652f79d1a115bc2d920a68ad6846a23107c660" upstream="refs/tags/android-10.0.0_r45"/>
   <project groups="pdk-fs" name="platform/packages/apps/Calendar" path="packages/apps/Calendar" revision="ce5ae4ff237cf4faa36bab3b6fa4c8081e5daa9a" upstream="refs/tags/android-10.0-mid-rkr11"/>
-  <project groups="pdk-fs" name="platform/packages/apps/Camera2" path="packages/apps/Camera2" revision="2dff4504ec687509a5559c7a42c6c32ef98d030a" upstream="refs/tags/android-10.0-mid-rkr11"/>
+  <project groups="pdk-fs" name="platform/packages/apps/Camera2" path="packages/apps/Camera2" revision="7bb245528bb924e377741842ffa5c9cd385c1197" upstream="refs/tags/android-10.0-mid-rkr11"/>
   <project groups="pdk-fs" name="platform/packages/apps/Car/Cluster" path="packages/apps/Car/Cluster" revision="08742fd36eda74cd2195e7e5c897c1e39fe26200" upstream="refs/tags/android-10.0.0_r45"/>
   <project groups="pdk-fs" name="platform/packages/apps/Car/Dialer" path="packages/apps/Car/Dialer" revision="d5fa27b8e0df7ce1d159f478ea8fd38be289cbf0" upstream="refs/tags/android-10.0.0_r45"/>
   <project groups="pdk-fs" name="platform/packages/apps/Car/Hvac" path="packages/apps/Car/Hvac" revision="49d71b2cf19cfb0ce6bd40913639b1e851d2f37f" upstream="refs/tags/android-10.0.0_r45"/>
@@ -523,7 +523,7 @@
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/DocumentsUI" path="packages/apps/DocumentsUI" revision="4eb18bfaa5d0dd466df1614f1a2c346d2da99418" upstream="refs/tags/android-10.0.0_r45"/>
   <project groups="pdk-fs" name="platform/packages/apps/Email" path="packages/apps/Email" revision="01365ea3ae3079bc7ccf98d157c29c06c2062bf2" upstream="refs/tags/android-10.0.0_r45"/>
   <project groups="pdk-fs" name="platform/packages/apps/EmergencyInfo" path="packages/apps/EmergencyInfo" revision="ac9164508614e9bee9191fa05d8240a5d370c984" upstream="refs/tags/android-10.0.0_r45"/>
-  <project groups="pdk-fs" name="platform/packages/apps/ExactCalculator" path="packages/apps/ExactCalculator" revision="7746694ad487a322b50443c1e020d0067838048c" upstream="refs/tags/android-10.0-mid-rkr11"/>
+  <project groups="pdk-fs" name="platform/packages/apps/ExactCalculator" path="packages/apps/ExactCalculator" revision="8514e2606b0c48d05a7f00d520e1c1b78a26bbfa" upstream="refs/tags/android-10.0-mid-rkr11"/>
   <project groups="pdk-fs" name="platform/packages/apps/Gallery" path="packages/apps/Gallery" revision="1526078e286daa19bcb5bcbc3dc525001fcfa9c6" upstream="refs/tags/android-10.0.0_r45"/>
   <project groups="pdk-fs" name="platform/packages/apps/Gallery2" path="packages/apps/Gallery2" revision="b5395490576c65f907eb5c40967a4ebeb69da1fe" upstream="refs/tags/android-10.0-mid-rkr11"/>
   <project groups="pdk-fs" name="platform/packages/apps/HTMLViewer" path="packages/apps/HTMLViewer" revision="c6cadf37a5588ce21dec2ca3e37cf3b1363d5a0f" upstream="refs/tags/android-10.0.0_r45"/>
@@ -724,10 +724,10 @@
   <project name="rk/device/rockchip/rk312x" path="device/rockchip/rk3126c" revision="66c54b7f0e270d44dab8bc8668ac6fe0e965d5a0" upstream="refs/tags/android-10.0-mid-rkr11"/>
   <project name="rk/device/rockchip/rk3288" path="device/rockchip/rk3288" revision="8e847238bfa6c332626a59e32f9bd6102839a155" upstream="refs/tags/android-10.0-mid-rkr11"/>
   <project name="rk/device/rockchip/rk3326" path="device/rockchip/rk3326" revision="5a015495a009ced8fdb791d97d89d93cbea02122" upstream="refs/tags/android-10.0-mid-rkr11"/>
-  <project name="rk/device/rockchip/rk3368" path="device/rockchip/rk3368" revision="1f9373c33394a486b4b2afe5e509b0975c169717" upstream="refs/tags/android-10.0-mid-rkr11"/>
-  <project name="rk/device/rockchip/rk3368a" path="device/rockchip/rk3368a" revision="5fb8a5121efd453ee9118a129a42403e66117853" upstream="refs/tags/android-10.0-mid-rkr11"/>
+  <project name="rk/device/rockchip/rk3368" path="device/rockchip/rk3368" revision="2030de97a673bff72ea3ead5cb3a8c6543101cfb" upstream="refs/tags/android-10.0-mid-rkr11"/>
+  <project name="rk/device/rockchip/rk3368a" path="device/rockchip/rk3368a" revision="92e8a47e13e12d4debffe48b45c7f81ec7e3d8cb" upstream="refs/tags/android-10.0-mid-rkr11"/>
   <project name="rk/device/rockchip/rk3399" path="device/rockchip/rk3399" revision="1197255e7307b97f9caac0a023b29630baec1376" upstream="refs/tags/android-10.0-mid-rkr11"/>
-  <project name="rk/device/rockchip/rksdk" path="device/rockchip/common" revision="a1db3cbf1a4d996e8bf8a915de0e69a0456ada8c" upstream="refs/tags/android-10.0-mid-rkr11">
+  <project name="rk/device/rockchip/rksdk" path="device/rockchip/common" revision="7e67821939757791990bdffabb56514d46bc6a07" upstream="refs/tags/android-10.0-mid-rkr11">
     <copyfile dest=".classpath" src=".classpath"/>
     <copyfile dest="mkimage.sh" src="mkimage.sh"/>
     <copyfile dest="javaenv.sh" src="javaenv.sh"/>
@@ -739,14 +739,14 @@
   <project name="rk/hardware/rk29/audio" path="hardware/rockchip/audio" revision="d9863efa693520d7cf48da9e4002baa363451dee" upstream="refs/tags/android-10.0-mid-rkr11"/>
   <project name="rk/hardware/rk29/bootctrl" path="hardware/rockchip/bootctrl" revision="fb9116e0478cacebf0ccb047924b53a430c2db09" upstream="refs/tags/android-10.0-mid-rkr11"/>
   <project name="rk/hardware/rk29/camera_engine_rkisp" path="hardware/rockchip/camera_engine_rkisp" revision="18bf36661f1a3e916b25d15cc207df927180162f" upstream="refs/tags/android-10.0-mid-rkr11"/>
-  <project name="rk/hardware/rk29/camera_v3" path="hardware/rockchip/camera" revision="809d5d40a54976861263db195dbaf90e2020477f" upstream="refs/tags/android-10.0-mid-rkr11"/>
+  <project name="rk/hardware/rk29/camera_v3" path="hardware/rockchip/camera" revision="92b3279091fcc839f0e124bf1274877838358275" upstream="refs/tags/android-10.0-mid-rkr11"/>
   <project name="rk/hardware/rk29/drmservice" path="hardware/rockchip/drmservice" revision="354dc140eed8fee31d26cd6dcce259fbda94b376" upstream="refs/tags/android-10.0-mid-rkr11"/>
   <project name="rk/hardware/rk29/fastbootd" path="hardware/rockchip/fastbootd" revision="36746e4dcafc0fe1fa8fdb9957f1d32b35aae736" upstream="refs/tags/android-10.0-mid-rkr11"/>
   <project name="rk/hardware/rk29/hdmicec" path="hardware/rockchip/hdmicec" revision="ebd4212cc5c7c708b0c4a93469630423dd07c33b" upstream="refs/tags/android-10.0-mid-rkr11"/>
   <project name="rk/hardware/rk29/hwcomposer_rga" path="hardware/rockchip/hwcomposer" revision="f9ae9a33eb8a11f052ef7f70462e721652c03d4b" upstream="refs/tags/android-10.0-mid-rkr11"/>
   <project name="rk/hardware/rk29/jpeghw" path="hardware/rockchip/jpeghw" revision="72b3537df45b9f20c93c9c1031aaaa73733924a2" upstream="refs/tags/android-10.0-mid-rkr11"/>
   <project name="rk/hardware/rk29/libgraphicpolicy" path="hardware/rockchip/libgraphicpolicy" revision="974bcadde876aa3ae1f89f13034615b0b661b892" upstream="refs/tags/android-10.0-mid-rkr11"/>
-  <project name="rk/hardware/rk29/libhwjpeg" path="hardware/rockchip/libhwjpeg" revision="f082721f25be933ba1fa032d1bdb192433c2eb6c" upstream="refs/tags/android-10.0-mid-rkr11"/>
+  <project name="rk/hardware/rk29/libhwjpeg" path="hardware/rockchip/libhwjpeg" revision="757823e5f7b658d2c1e89508bde9d6453a44f7d3" upstream="refs/tags/android-10.0-mid-rkr11"/>
   <project name="rk/hardware/rk29/libiep" path="hardware/rockchip/libiep" revision="68e274cd748d1d0e0dcd52a3ead0ee7cb64819b1" upstream="refs/tags/android-10.0-mid-rkr11"/>
   <project name="rk/hardware/rk29/liblights" path="hardware/rockchip/liblights" revision="b29a973a3a6562c6733f67dbbd64c43c18079fb4" upstream="refs/tags/android-10.0-mid-rkr11"/>
   <project name="rk/hardware/rk29/libmemtrack" path="hardware/rockchip/libmemtrack" revision="c591424c9c90a115d5498a19551fa40fb79bab81" upstream="refs/tags/android-10.0-mid-rkr11"/>
@@ -757,23 +757,23 @@
   <project name="rk/hardware/rk29/sensor" path="hardware/rockchip/sensor" revision="0c4b70814ac6a73d4137f937345361afb2996637" upstream="refs/tags/android-10.0-mid-rkr11"/>
   <project name="rk/hardware/rk29/swiftshader" path="hardware/rockchip/swiftshader" revision="adb53038163c3cc87bb6bc9c130a9502b46d4be1" upstream="refs/tags/android-10.0-mid-rkr11"/>
   <project name="rk/hardware/rk29/weaver" path="hardware/rockchip/weaver" revision="26c9dd9bb2e8521583e53c1da30b927ce79da125" upstream="refs/tags/android-10.0-mid-rkr11"/>
-  <project name="rk/kernel" path="kernel" revision="fb7aff47e0b2ad728df3b595824422caacd43eef" upstream="refs/tags/android-10.0-mid-rkr11"/>
+  <project name="rk/kernel" path="kernel" revision="39c0341a5710930e680a23566a9efdb3b169390b" upstream="refs/tags/android-10.0-mid-rkr11"/>
   <project name="rk/platform/external/abc" path="external/abc" revision="59952887d96231c09fc2bd1e0be0659f40cd40ab" upstream="refs/tags/android-10.0-mid-rkr11"/>
   <project name="rk/platform/external/io" path="external/io" revision="19d7f773d49d74b6dd05b90e2e7ad4fd6a85264b" upstream="refs/tags/android-10.0-mid-rkr11"/>
   <project name="rk/platform/external/ntfs-3g" path="external/ntfs-3g" revision="8c634a102728a20fdb30744a3a53e7efa5764f17" upstream="refs/tags/android-10.0-mid-rkr11"/>
-  <project name="rk/platform/external/rk-pcba-test" path="bootable/recovery/pcba_core" revision="a14919363930c9265f3f798b77fe4e6f134f8fef" upstream="refs/tags/android-10.0-mid-rkr11"/>
+  <project name="rk/platform/external/rk-pcba-test" path="bootable/recovery/pcba_core" revision="bb9869be0818f63be8afa1e8d741506f673b0718" upstream="refs/tags/android-10.0-mid-rkr11"/>
   <project name="rk/platform/external/usb_modeswitch" path="external/usb_modeswitch" revision="9857c093db449e24a1b4ce89557bfe53bb0785d6" upstream="refs/tags/android-10.0-mid-rkr11"/>
   <project name="rk/platform/vendor/Widevine" path="vendor/widevine" revision="5f17e901d01dacdc913972219bfbfa8db22a1019" upstream="refs/tags/android-10.0-mid-rkr11"/>
-  <project clone-depth="1" name="rk/platform/vendor/google" path="vendor/partner_gms" revision="37b63761a781f75c76bb2c61ad20fdaeb9037b01" upstream="rk33/mid/10.0_express/develop"/>
+  <project clone-depth="1" name="rk/platform/vendor/google" path="vendor/partner_gms" revision="70af12ca137b636433d5cf6078b57d1a91bf75d5" upstream="rk33/mid/10.0_express/develop"/>
   <project name="rk/platform/vendor/partner_modules" path="vendor/partner_modules" revision="a25fb57cd447d7cf30ac6ee1258d4d94cea17656" upstream="rk33/mid/10.0_express/develop"/>
-  <project name="rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" revision="a6b120722a5cc1de41a5ef3505803138070b9b16" upstream="refs/tags/android-10.0-mid-rkr11"/>
+  <project name="rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" revision="22c12e5ff6093e9929f41c63aa233d22e30e94d1" upstream="refs/tags/android-10.0-mid-rkr11"/>
   <project name="rk/platform/vendor/rockchip/hardware" path="vendor/rockchip/hardware" revision="54925dff94e772377112c19c3304758ea9376cd8" upstream="refs/tags/android-10.0-mid-rkr11"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="master"/>
   <project name="rk/rkbin" path="rkbin" revision="ca647f4aeeaefb2de1f6e40d66436c45d0cd2170" upstream="refs/tags/android-10.0-mid-rkr11"/>
   <project name="rk/rkst" path="rkst" revision="4dbeba03e035873a20924555b205ad9ad7182fe7" upstream="refs/tags/android-10.0-mid-rkr11"/>
   <project name="rk/rktoolbox" path="external/rktoolbox" revision="f4a7b952b4742eda6c7b3c4406c47a7a588d195a" upstream="refs/tags/android-10.0-mid-rkr11"/>
-  <project name="rk/u-boot" path="u-boot" revision="f07a9984eb84f4cd4cc8648d739e25c00cd6c38a" upstream="refs/tags/android-10.0-mid-rkr11"/>
+  <project name="rk/u-boot" path="u-boot" revision="d8da4155a2f02c40cf546a11a55de25e8b8bb4b8" upstream="refs/tags/android-10.0-mid-rkr11"/>
   <project name="toolchain/benchmark" revision="1fba1825631e6e52dff5b3ceb87a5b439e2acf52" upstream="refs/tags/android-10.0.0_r45"/>
   <project groups="pdk" name="toolchain/pgo-profiles" revision="57f8a20c1c0aae0126d79391756e0653fc222072" upstream="refs/tags/android-10.0.0_r45"/>
   

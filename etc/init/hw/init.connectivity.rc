@@ -3,6 +3,7 @@ on zygote-start
 
 # for bluetooth
     # bluetooth LPM
+    insmod /vendor/lib/modules/sprdbt_tty.ko
     chown bluetooth net_bt /proc/bluetooth/sleep/lpm
     chown bluetooth net_bt /proc/bluetooth/sleep/btwrite    
 
@@ -28,14 +29,15 @@ on zygote-start
     chown bluetooth net_bt /sys/class/rfkill/rfkill0/type
     chown bluetooth net_bt /sys/class/rfkill/rfkill0/state
     chmod 0664 /sys/class/rfkill/rfkill0/state
-    insmod /vendor/lib/modules/sprdbt_tty.ko
+    #insmod /vendor/lib/modules/sprdbt_tty.ko
 
     chown bluetooth net_bt /dev/ttyBT0
     chmod 0660 /dev/ttyBT0
     chown bluetooth net_bt /sys/class/rfkill/rfkill1/type
     chown bluetooth net_bt /sys/class/rfkill/rfkill1/state
     	chmod 0664 /sys/class/rfkill/rfkill1/state
-
+   chown bluetooth net_bt /sys/devices/platform/mtty/rfkill/rfkill0/state
+   chmod 0664 /sys/devices/platform/mtty/rfkill/rfkill0/state
 # for wifi
 
     mkdir /data/vendor/wifi 0771 wifi wifi

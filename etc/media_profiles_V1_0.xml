@@ -196,8 +196,8 @@
 -->
 
         <!--  If your sensor driver don't support 720p stream, Please turn off this element -->
-<!--
-        <EncoderProfile quality="720p" fileFormat="mp4" duration="30">
+
+    <!--    <EncoderProfile quality="720p" fileFormat="mp4" duration="30">
             <Video codec="h264"
                    bitRate="6000000"
                    width="1280"
@@ -208,11 +208,11 @@
                    bitRate="61000"
                    sampleRate="44100"
                    channels="1" />
-        </EncoderProfile>
--->
+        </EncoderProfile> -->
+
         <!--  If your sensor driver don't support 1080p stream, Please turn off this element -->
-<!--
-        <EncoderProfile quality="1080p" fileFormat="mp4" duration="30">
+
+        <!-- <EncoderProfile quality="1080p" fileFormat="mp4" duration="30">
             <Video codec="h264"
                    bitRate="6000000"
                    width="1920"
@@ -223,8 +223,8 @@
                    bitRate="61000"
                    sampleRate="44100"
                    channels="1" />
-        </EncoderProfile>
--->
+        </EncoderProfile> -->
+
         <EncoderProfile quality="timelapseqcif" fileFormat="mp4" duration="30">
             <Video codec="h264"
                    bitRate="256000"
