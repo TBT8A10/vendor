@@ -36,7 +36,7 @@
   <project name="platform/bootable/recovery/mtd_utils" path="bootable/recovery/mtdutils" revision="9fc87c1ee151af1cc4bef5d6daa85ff571621ba6" upstream="refs/tags/android-10.0-mid-rkr11"/>
   <project name="platform/bootable/recovery/rk_update" path="bootable/recovery/rkupdate" revision="5351453a8e96bdad4ee5a1cdc9b4ae5995e0636d" upstream="refs/tags/android-10.0-mid-rkr11"/>
   <project name="platform/bootable/recovery/rk_utility" path="bootable/recovery/rkutility" revision="43586ca6b1919648a0fb43c9e96bc5387caad238" upstream="refs/tags/android-10.0-mid-rkr11"/>
-  <project groups="pdk" name="platform/build" path="build/make" revision="dd24b997f0a59be70f6a53080ae32a8f02209989" upstream="refs/tags/android-10.0-mid-rkr11">
+  <project groups="pdk" name="platform/build" path="build/make" revision="67ec2190a580f6ee1834da2105b9936f8bdb02b1" upstream="refs/tags/android-10.0-mid-rkr11">
     <copyfile dest="Makefile" src="core/root.mk"/>
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
     <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default"/>
@@ -725,7 +725,7 @@
   <project name="rk/device/rockchip/rk3288" path="device/rockchip/rk3288" revision="8e847238bfa6c332626a59e32f9bd6102839a155" upstream="refs/tags/android-10.0-mid-rkr11"/>
   <project name="rk/device/rockchip/rk3326" path="device/rockchip/rk3326" revision="5a015495a009ced8fdb791d97d89d93cbea02122" upstream="refs/tags/android-10.0-mid-rkr11"/>
   <project name="rk/device/rockchip/rk3368" path="device/rockchip/rk3368" revision="2030de97a673bff72ea3ead5cb3a8c6543101cfb" upstream="refs/tags/android-10.0-mid-rkr11"/>
-  <project name="rk/device/rockchip/rk3368a" path="device/rockchip/rk3368a" revision="92e8a47e13e12d4debffe48b45c7f81ec7e3d8cb" upstream="refs/tags/android-10.0-mid-rkr11"/>
+  <project name="rk/device/rockchip/rk3368a" path="device/rockchip/rk3368a" revision="9fad83bcd99c02ba9e1bc6e14d5c88b14185824a" upstream="refs/tags/android-10.0-mid-rkr11"/>
   <project name="rk/device/rockchip/rk3399" path="device/rockchip/rk3399" revision="1197255e7307b97f9caac0a023b29630baec1376" upstream="refs/tags/android-10.0-mid-rkr11"/>
   <project name="rk/device/rockchip/rksdk" path="device/rockchip/common" revision="7e67821939757791990bdffabb56514d46bc6a07" upstream="refs/tags/android-10.0-mid-rkr11">
     <copyfile dest=".classpath" src=".classpath"/>
@@ -757,7 +757,7 @@
   <project name="rk/hardware/rk29/sensor" path="hardware/rockchip/sensor" revision="0c4b70814ac6a73d4137f937345361afb2996637" upstream="refs/tags/android-10.0-mid-rkr11"/>
   <project name="rk/hardware/rk29/swiftshader" path="hardware/rockchip/swiftshader" revision="adb53038163c3cc87bb6bc9c130a9502b46d4be1" upstream="refs/tags/android-10.0-mid-rkr11"/>
   <project name="rk/hardware/rk29/weaver" path="hardware/rockchip/weaver" revision="26c9dd9bb2e8521583e53c1da30b927ce79da125" upstream="refs/tags/android-10.0-mid-rkr11"/>
-  <project name="rk/kernel" path="kernel" revision="39c0341a5710930e680a23566a9efdb3b169390b" upstream="refs/tags/android-10.0-mid-rkr11"/>
+  <project name="rk/kernel" path="kernel" revision="01d71fafec404409ef5627bd8889ddd783f474a8" upstream="refs/tags/android-10.0-mid-rkr11"/>
   <project name="rk/platform/external/abc" path="external/abc" revision="59952887d96231c09fc2bd1e0be0659f40cd40ab" upstream="refs/tags/android-10.0-mid-rkr11"/>
   <project name="rk/platform/external/io" path="external/io" revision="19d7f773d49d74b6dd05b90e2e7ad4fd6a85264b" upstream="refs/tags/android-10.0-mid-rkr11"/>
   <project name="rk/platform/external/ntfs-3g" path="external/ntfs-3g" revision="8c634a102728a20fdb30744a3a53e7efa5764f17" upstream="refs/tags/android-10.0-mid-rkr11"/>
@@ -766,7 +766,7 @@
   <project name="rk/platform/vendor/Widevine" path="vendor/widevine" revision="5f17e901d01dacdc913972219bfbfa8db22a1019" upstream="refs/tags/android-10.0-mid-rkr11"/>
   <project clone-depth="1" name="rk/platform/vendor/google" path="vendor/partner_gms" revision="70af12ca137b636433d5cf6078b57d1a91bf75d5" upstream="rk33/mid/10.0_express/develop"/>
   <project name="rk/platform/vendor/partner_modules" path="vendor/partner_modules" revision="a25fb57cd447d7cf30ac6ee1258d4d94cea17656" upstream="rk33/mid/10.0_express/develop"/>
-  <project name="rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" revision="22c12e5ff6093e9929f41c63aa233d22e30e94d1" upstream="refs/tags/android-10.0-mid-rkr11"/>
+  <project name="rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" revision="4b7cbfc3cf62c6a49a5734ecf345c189017e8432" upstream="refs/tags/android-10.0-mid-rkr11"/>
   <project name="rk/platform/vendor/rockchip/hardware" path="vendor/rockchip/hardware" revision="54925dff94e772377112c19c3304758ea9376cd8" upstream="refs/tags/android-10.0-mid-rkr11"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="master"/>
